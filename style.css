@@ -1,0 +1,87 @@
+.nav{
+    background-color: rgb(126, 123, 123);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(14, 85, 167);
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    margin-right: 50px;
+}
+.contenedor{
+    display:flex;
+}
+.ladoder{
+    flex:1;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top:20px;
+    height: 150px;
+    border: 2px solid black;
+}
+.btn2{
+    color: black;
+    background-color: rgb(8, 155, 57);
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    margin-right: 80px;
+    width: 150px;
+    height: 30px;
+}
+
+.ladoizq{
+    flex:1;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 10px;
+
+}
+.arriba{
+    display:flex;
+    flex:1;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.abajo{
+    display:flex;
+    flex:1;
+    border: 2px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.palabra{
+    flex: 1;
+    text-align: center;
+}
+.significado{
+    flex:2;
+    margin-right: 20px;
+}
+.like{
+    color: black;
+    background-color: rgb(209, 207, 54);
+    border: 2px solid black;
+    box-shadow: 1px 1px black;
+    margin-bottom: 20px;
+    height: 30px;
+}
+.cursiva{
+    font-style: italic;
+}
+.subrayado{
+    text-decoration: underline;
+    color:cornflowerblue;
+}
